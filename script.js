@@ -1,6 +1,3 @@
-const audio = document.getElementById("myAudio");
-audio.volume = 0.5;
-
 const BASE_URL = "https://swapi.dev/api/";
 const get_people= document.querySelector('body');
 const post_block= document.querySelector('#block');
@@ -80,7 +77,8 @@ function withdrawDisplayPlanets(name) {
   post_block.append(planets);
 }
 
-
+const audio = document.getElementById("myAudio");
+audio.volume = 0.5;
 
 
  
