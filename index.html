@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+    <title>HW #12</title>
+</head>
+<body>
+    <audio autoplay loop id="myAudio">
+        <source src="./sound/imperskij_marsh_-_imperskij_marsh_(z2.fm).mp3" type="audio/mpeg">
+    </audio>
+   <div>
+        <div id="header">
+            <label for="films">Episode info:</label>
+            <input id="films" type="number" min="1" max="6" value ="1">
+            <input type="submit" value="GET">            
+            <span id="planets">All planets</span>
+        </div>    
+        <div>
+            <span>Language:</span>
+            <label for="EN">en</label>            
+            <input type="radio" id="EN" name="language" value="EN">
+            <label for="WOO">woo</label>            
+            <input type="radio" id="WOO" name="language" value="WOO">
+        </div>   
+        <div id="block"></div>     
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
