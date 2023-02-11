@@ -77,6 +77,9 @@ function withdrawDisplayPlanets(name) {
   post_block.append(planets);
 }
 
+
+
+
 const audio = document.getElementById("myAudio");
 audio.volume = 0.5;
 
